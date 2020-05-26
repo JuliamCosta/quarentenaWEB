@@ -1,30 +1,14 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
-        <meta charset="utf-8" />
-        <title>Atividade 1-Quarentena</title>
-        <script>
-            function somar(){
-                var num1= document.getElementById('num1').value;
-                var num2= document.getElementById('num2').value;
-                resultado= parseInt(num1)+parseInt(num2);
-                document.getElementById("result").value = resultado;
-            }
-                
-        </script>
+        <meta charset="utf-8">
+        <title>Atividades Quarentena</title>    	
     </head>
+
     <body>
-        <form>    
-            <p>
-                <input type="number" name="num1" id="num1">
-            +
-                <input type="number" name="num2" id="num2">
-            =
-                <input type="result" name="result" id="result" readonly>
-            </p>
-            <button type="button" onclick="somar()">Calcular</button>
-            <input type="reset" value="Limpar"/>
-        </form> 
+        <div>
+            <h1>Link- Atividades Quarentena</h1>
+        </div>
+        <a href="20200519/soma.php">Atividade 1-Soma</a>
     </body>
 </html>
